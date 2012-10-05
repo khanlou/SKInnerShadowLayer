@@ -8,10 +8,10 @@
 
 These properties are:
 
-	+ @property CGColorRef innerShadowColor;
-	+ @property CGSize innerShadowOffset;
-	+ @property CGFloat innerShadowRadius;
-	+ @property CGFloat innerShadowOpacity;
+	@property CGColorRef innerShadowColor;
+	@property CGSize innerShadowOffset;
+	@property CGFloat innerShadowRadius;
+	@property CGFloat innerShadowOpacity;
 
 They behave similarly to their drop shadow counterparts.
 
