@@ -29,7 +29,7 @@ and this creates the illusion of an inner shadow.
 
 ## Animations
 
-These properties are all fully animatable. There is an example of a layer with a with an inner shadow opacity animation in the demo app. Being able to easily create animations is the immediate advantage of using `CoreGraphics` to draw an inner shadow instead of using an image resource.
+These properties are all fully animatable. There is an example of a layer with an inner shadow opacity animation in the demo app. Being able to easily create animations is the immediate advantage of using `CoreGraphics` to draw an inner shadow instead of using an image resource.
 
 ## Graphical bugs
 
