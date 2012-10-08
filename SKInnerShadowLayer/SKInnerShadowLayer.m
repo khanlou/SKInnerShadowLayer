@@ -50,6 +50,8 @@
 }
 
 - (void) commonInit {
+	self.contentsScale = 2.0f;
+	
 	self.innerShadowColor = [UIColor blackColor].CGColor;
 	self.innerShadowOffset = CGSizeMake(0, 3);
 	self.innerShadowRadius = 5.0f;
