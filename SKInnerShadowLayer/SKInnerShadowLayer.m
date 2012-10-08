@@ -50,6 +50,7 @@
 }
 
 - (void) commonInit {
+	//if contentsScale isn't 2.0, it will draw at 1.0 scale and look chunky and weird
 	self.contentsScale = 2.0f;
 	
 	self.innerShadowColor = [UIColor blackColor].CGColor;
