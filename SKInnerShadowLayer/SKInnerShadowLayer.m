@@ -50,8 +50,8 @@
 }
 
 - (void) commonInit {
-	//if contentsScale isn't 2.0, it will draw at 1.0 scale and look chunky and weird
-	self.contentsScale = 2.0f;
+	//if contentsScale isn't 2.0 for retina screens, it will draw at 1.0 scale and look chunky and weird
+	self.contentsScale = [UIScreen mainScreen].scale;
 	
 	self.innerShadowColor = [UIColor blackColor].CGColor;
 	self.innerShadowOffset = CGSizeMake(0, 3);
