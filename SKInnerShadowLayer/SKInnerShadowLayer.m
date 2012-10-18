@@ -67,7 +67,7 @@
 }
 
 - (id)actionForKey:(NSString *) key {
-	if ([key isEqualToString:@"innerShadowRadius"]) {
+	if ([key isEqualToString:@"innerShadowColor"] || [key isEqualToString:@"innerShadowRadius"] || [key isEqualToString:@"innerShadowOpacity"] || [key isEqualToString:@"innerShadowOffset"]) {
 		CABasicAnimation *theAnimation = [CABasicAnimation animationWithKeyPath:key];
 		theAnimation.fromValue = [self.presentationLayer valueForKey:key];
 		return theAnimation;
