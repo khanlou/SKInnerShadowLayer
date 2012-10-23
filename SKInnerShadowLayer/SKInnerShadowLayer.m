@@ -142,6 +142,7 @@
 	
 	
 	CGPathRelease(outer);
+	CGColorRelease(innerShadowColorWithMultipliedAlpha);
 	
 }
 
